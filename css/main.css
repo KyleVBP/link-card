@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 
-body:hover {
+.link-card:hover {
   background-color: #cabdb2;
 }
 
@@ -41,7 +41,7 @@ body:hover {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
-  padding: 1rem 1rem 0;
+  padding: .7rem 1rem 0;
   text-align: left;
 }
 
@@ -51,13 +51,12 @@ body:hover {
   font-family: Georgia;
   text-align: left;
   margin: 0;
-  padding: 1rem;
+  padding: .5rem 1rem .7rem;
   border-bottom: 2px solid #9a816d;
 }
 
 .link-card dl {
   text-align: left;
-  margin: 0;
   padding: 1rem;
   font-family: Georgia;
   font-size: .875rem;
@@ -79,7 +78,7 @@ body:hover {
 .btn {
   display: inline-block;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: bold;
   background-color: #785439;
   border: 3px solid #785439;
